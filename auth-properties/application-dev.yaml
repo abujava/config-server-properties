@@ -6,4 +6,5 @@ spring:
 app:
   user:
     token-expiration-in-ms: 2629800000
+    jwt-secret-key: thisisjwtsecretkey123
     password-regex: (.*?)
