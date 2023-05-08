@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: AUTH-SERVICE
+app:
+  user:
+    token-expiration-in-ms: 604800000
+    password-regex: ^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=])[A-Za-z\d!@#$%^&*()_+\-=]{8,}$
