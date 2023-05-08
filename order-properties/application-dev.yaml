@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: ORDER-SERVICE
+app:
+  order:
+    booking-time: 2629800000
+    max-weight: 9999999
