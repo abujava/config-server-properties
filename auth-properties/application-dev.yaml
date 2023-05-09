@@ -5,6 +5,6 @@ spring:
     name: AUTH-SERVICE
 app:
   user:
-    jwt-secret-key: {cipher}629afd0cfdabfbc95c7616c5c0bc340ea11b58379ebdc063f0e7e07505ff289818d1564057021b060ba38161c83d5065
+    jwt-secret-key: '{cipher}629afd0cfdabfbc95c7616c5c0bc340ea11b58379ebdc063f0e7e07505ff289818d1564057021b060ba38161c83d5065'
     token-expiration-in-ms: sadfasdfsad
     password-regex: (.*?)
